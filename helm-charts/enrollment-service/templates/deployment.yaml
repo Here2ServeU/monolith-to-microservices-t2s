@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: enrollment-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: enrollment-service
+  template:
+    metadata:
+      labels:
+        app: enrollment-service
+    spec:
+      containers:
+      - name: enrollment-service
+        image: "<registry>/enrollment-service:latest"
+        ports:
+        - containerPort: 5000
