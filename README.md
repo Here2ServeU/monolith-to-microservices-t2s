@@ -13,27 +13,7 @@ This project showcases the transformation of the [api-restful-nodejs-express](ht
 
 ## Architecture Diagram
 
-```
-                        +---------------------+
-                        |   API Gateway/Ingress|
-                        +----------+----------+
-                                   |
-        +--------------------------+--------------------------+
-        |                          |                          |
-+-------v-------+        +---------v---------+        +-------v-------+
-|  Auth Service |        |  Product Service  |        |  Order Service |
-+---------------+        +-------------------+        +---------------+
-        |                          |                          |
-        +--------------------------+--------------------------+
-                                   |
-                          +--------v--------+
-                          | Enrollment Svc  |
-                          +-----------------+
-                                   |
-                          +--------v--------+
-                          |   MongoDB Atlas  |
-                          +-----------------+
-```
+[Here's the diagram for the architecture we use for this project](assets/architecture-diagram.mp4)
 
 ## Supported Cloud Platforms
 
