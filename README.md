@@ -13,7 +13,7 @@ This project showcases the transformation of the [api-restful-nodejs-express](ht
 
 ## Architecture Diagram
 
-![Microservices Architecture](./architecture-diagram.jpg)
+![Microservices Architecture](assets/architecture-diagram.jpg)
 
 ## Supported Cloud Platforms
 
